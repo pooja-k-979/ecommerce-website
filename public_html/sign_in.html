@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign in</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="modal_container" id="modal_container">
+                             <div class="modal">
+                                <form id="Login_modal">
+                                 <h4>Don't have an account?</h4>
+                                 <a href="ec_php_signup.php">Register</a>
+                              
+                                <div class="form-group">
+                                <label for="email">Email or Phone no.</label>
+                                <input type="text" class="form-control" name="email" placeholder="Email" >
+                                </div>
+                
+                                 <button <input type="submit" class="btn btn-danger btn-block">Continue</button>
+                                </form>
+                            </div> 
+                         </div>
+    </body>
+</html>

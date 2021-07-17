@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 4, 2021, 1:53:52 AM
+    Author     : rc
+*/
+
+header{
+    padding: 0px 0px;
+    border-bottom: 1px solid;
+    background-color:#000;
+    color:#fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.index_back{
+    background-color: #204d74; /*rgba(0,0,0,0.3)*/;
+    }
+.nav_container{
+    height: 100%;
+}
+
+.column_style{
+    /*border: 1px solid #000000;*/
+    background-color: #cccccc;
+    border-color: #cccccc;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+div.row {
+        border: 0px;
+      }
+      
+.row_style{
+          margin-top:10px;
+          border-collapse: collapse;
+          border: 0;
+          border-color: #fff;
+}
+.size{
+    width: 100px;
+    height:150px;
+    justify-content:center;
+}
+.btn_size{
+    width:100%;
+}
+
+
+.footer_style{
+    background-color: #cccccc;
+}
+
+ #modal_container{
+  background-color: #204d74; /*rgba(0,0,0,0.3);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  border-width: 20px;
+ height: 100%;
+  width: 100%;
+}
+#modal{
+    background-color: #fff;
+    border-width: 20px;
+    border-radius: 20px;
+    border-color: #c7254e;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+    padding: 30px 50px;
+    width: 600px;
+    max-width: 100%; /*keep the modal content inside the modal*/
+    text-align: center;
+}
+      
+

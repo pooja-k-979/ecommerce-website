@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        <title>Sign up</title>
+        <!--minifies bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+<!--        <style>
+         
+               .modal_container{
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  border-width: 20px;
+ height: 100%;
+  width: 100%;
+}
+.modal{
+    background-color: #fff;
+    border-width: 20px;
+    border-radius: 20px;
+    border-color: #c7254e;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+    padding: 30px 50px;
+    width: 300px;
+    max-width: 100%; /*keep the modal content inside the modal*/
+    text-align: center;
+        </style>-->
+        
+        <link href="estyle.css" type="text/css" rel="stylesheet"/>
+        
+    </head>
+    
+<!--    <head>
+        <title>Sign up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estyle.css" type="text/css" rel="stylesheet"/>
+        <style>
+         
+               .modal_container{
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  border-width: 20px;
+ height: 100%;
+  width: 100%;
+}
+.modal{
+    background-color: #fff;
+    border-width: 20px;
+    border-radius: 20px;
+    border-color: #c7254e;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+    padding: 30px 50px;
+    width: 300px;
+    max-width: 100%; /*keep the modal content inside the modal*/
+    text-align: center;
+        </style>
+     
+
+    </head>-->
+    <body>
+        
+        
+        <div class="container ">
+            <div class="row row_style">
+                <div class="col-xs-6">
+                    <div class="panel panel-default">
+                        
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+         <div class="modal-container " id="modal_container" >
+                             <div id="modal" >
+                                 <form id="Register_modal" method="post" action="user_registration_script.php">
+                                
+                                     <div class="form-group">
+                                        <label for="yourname">Your name:</label>
+                                        <input type="text" class="form-control input-lg" name="yourname">   
+                                     </div>
+                                <br>
+                                   
+                                 <div class="form-group">
+                                    <label for="lastname">Last name</label>
+                                    <input type="text" class="form-control" name="lastname" placeholder="Last name" >
+                                 </div>
+                                <br>
+                                <div class="form-group">
+                                <!--<label for="mobilenumber">Mobile number:</label>-->
+                                Mobile name:<input type="tel" class="form-control" name="mobilenumber" >  
+                                </div>
+                                <br>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control" name="email" placeholder="Email" >
+                                </div>
+                                <br>
+                                 <button <input type="submit" class="btn btn-danger btn-block">Continue</button>
+                                  
+                                 <button <input type="close" class="btn btn-danger btn-block">Close</button>
+                                </form>
+                                
+                            </div>
+                                
+        </div> 
+                        
+        
+    </body>
+</html>
